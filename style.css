@@ -1,0 +1,71 @@
+html {
+    background: url(6852118-party-wallpaper.jpg) bottom center no-repeat;
+    background-size: cover;
+    font-size: 10px;
+    overflow: hidden;
+    max-height: 920px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.keys {
+    color: white;
+    display: flex; 
+    flex: 1;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.key {
+    border: .4rem solid #bec0d9;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    width: 10rem;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    transition: all .2s linear;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;  
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
+
+
+
+.footer {
+    background-color: pink;
+    height: 40px;
+    border: 2px solid black;
+    font-size 25px;
+    text-align: center;
+}
+
+
+
+
+
